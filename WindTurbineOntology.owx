@@ -1,0 +1,1964 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/guizi/ontologies/2026/10/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/guizi/ontologies/2026/10/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/guizi/ontologies/2026/10/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Anemometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsymmetricLoad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtmosphericPressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtmosphericVariable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Available"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControlProblem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CupAnemometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FatigueLoad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gearbox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumiditySensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lidar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurableVariable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementContextVariable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicalStress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MesurementHeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetereologicalMast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nacelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalInstability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalProblem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerformanceProblem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PowerLoss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressureSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PropellerAnemometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReducedEfficiency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelativeHumidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SonicAnemometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StructuralProblem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperatureSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurbineStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurbulenceIntensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unavailable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindDirection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindFarm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindGust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindMeasurementInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindPhenomenon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindProblem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindProfilePhenomenon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindRamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindShear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindSpeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindTurbine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindTurbulence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindVane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindVariabilityPhenomenon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindVariable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindVeer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Characterizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Measures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mayAffect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mayBeAffectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mayBeCausedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mayCause"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasInstallationHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNominalPower"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumberOfBlades"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPowerOutput"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anemometer_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anemometer_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AsymetricLoad_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Available_Status"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blade_01B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blade_01C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blade_02A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blade_02B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blade_02C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ControlProblem_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FatigueLoad_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HumiditySensor_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Humidity_Mast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MetereologicalMast_Alpha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PowerLoss_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PressureSensor_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pressure_Mast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TemperatureSensor_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Temperature_Mast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TurbulenceIntensity_Mast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unavailable_Status"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WTG_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WTG_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindGust_Event_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindShear_Event_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindTurbulence_Event_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindVane_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindVeer_Event_01"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Anemometer"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsymmetricLoad"/>
+        <Class IRI="#StructuralProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsymmetricLoad"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtmosphericPressure"/>
+        <Class IRI="#AtmosphericVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtmosphericPressure"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtmosphericVariable"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Available"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Available"/>
+        <Class IRI="#TurbineStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blade"/>
+        <Class IRI="#Rotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blade"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blade"/>
+        <Class IRI="#WindTurbine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControlProblem"/>
+        <Class IRI="#OperationalProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControlProblem"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CupAnemometer"/>
+        <Class IRI="#Anemometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CupAnemometer"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatigueLoad"/>
+        <Class IRI="#StructuralProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatigueLoad"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gearbox"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gearbox"/>
+        <Class IRI="#WindTurbine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <Class IRI="#WindTurbine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hub"/>
+        <Class IRI="#Rotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hub"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hub"/>
+        <Class IRI="#WindTurbine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumiditySensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lidar"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementContextVariable"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalStress"/>
+        <Class IRI="#StructuralProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalStress"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MesurementHeight"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MesurementHeight"/>
+        <Class IRI="#MeasurementContextVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetereologicalMast"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetereologicalMast"/>
+        <Class IRI="#WindMeasurementInfrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nacelle"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nacelle"/>
+        <Class IRI="#WindTurbine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalInstability"/>
+        <Class IRI="#OperationalProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalInstability"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalProblem"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerformanceProblem"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerLoss"/>
+        <Class IRI="#PerformanceProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerLoss"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureSensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PropellerAnemometer"/>
+        <Class IRI="#Anemometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PropellerAnemometer"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReducedEfficiency"/>
+        <Class IRI="#PerformanceProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReducedEfficiency"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelativeHumidity"/>
+        <Class IRI="#AtmosphericVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelativeHumidity"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotor"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotor"/>
+        <Class IRI="#WindTurbine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonicAnemometer"/>
+        <Class IRI="#Anemometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonicAnemometer"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuralProblem"/>
+        <Class IRI="#WindProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#AtmosphericVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureSensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tower"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tower"/>
+        <Class IRI="#WindTurbine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurbineStatus"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurbulenceIntensity"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurbulenceIntensity"/>
+        <Class IRI="#WindVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unavailable"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unavailable"/>
+        <Class IRI="#TurbineStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindDirection"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindDirection"/>
+        <Class IRI="#WindVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindFarm"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindGust"/>
+        <Class IRI="#WindPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindGust"/>
+        <Class IRI="#WindVariabilityPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindMeasurementInfrastructure"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindProfilePhenomenon"/>
+        <Class IRI="#WindPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindRamp"/>
+        <Class IRI="#WindPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindRamp"/>
+        <Class IRI="#WindVariabilityPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindShear"/>
+        <Class IRI="#WindPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindShear"/>
+        <Class IRI="#WindProfilePhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindSpeed"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindSpeed"/>
+        <Class IRI="#WindVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindTurbine"/>
+        <Class IRI="#WindComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindTurbulence"/>
+        <Class IRI="#WindPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindVane"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindVariabilityPhenomenon"/>
+        <Class IRI="#WindPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindVariable"/>
+        <Class IRI="#MeasurableVariable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindVeer"/>
+        <Class IRI="#WindPhenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindVeer"/>
+        <Class IRI="#WindProfilePhenomenon"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Available"/>
+        <Class IRI="#Unavailable"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Anemometer"/>
+        <NamedIndividual IRI="#Anemometer_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensor"/>
+        <NamedIndividual IRI="#Anemometer_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anemometer"/>
+        <NamedIndividual IRI="#Anemometer_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensor"/>
+        <NamedIndividual IRI="#Anemometer_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsymmetricLoad"/>
+        <NamedIndividual IRI="#AsymetricLoad_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StructuralProblem"/>
+        <NamedIndividual IRI="#AsymetricLoad_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindProblem"/>
+        <NamedIndividual IRI="#AsymetricLoad_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Available"/>
+        <NamedIndividual IRI="#Available_Status"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurableVariable"/>
+        <NamedIndividual IRI="#Available_Status"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TurbineStatus"/>
+        <NamedIndividual IRI="#Available_Status"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Blade"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Blade"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Blade"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Blade"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Blade"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Blade"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ControlProblem"/>
+        <NamedIndividual IRI="#ControlProblem_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OperationalProblem"/>
+        <NamedIndividual IRI="#ControlProblem_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindProblem"/>
+        <NamedIndividual IRI="#ControlProblem_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatigueLoad"/>
+        <NamedIndividual IRI="#FatigueLoad_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StructuralProblem"/>
+        <NamedIndividual IRI="#FatigueLoad_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindProblem"/>
+        <NamedIndividual IRI="#FatigueLoad_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HumiditySensor"/>
+        <NamedIndividual IRI="#HumiditySensor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensor"/>
+        <NamedIndividual IRI="#HumiditySensor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AtmosphericVariable"/>
+        <NamedIndividual IRI="#Humidity_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurableVariable"/>
+        <NamedIndividual IRI="#Humidity_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RelativeHumidity"/>
+        <NamedIndividual IRI="#Humidity_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetereologicalMast"/>
+        <NamedIndividual IRI="#MetereologicalMast_Alpha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#MetereologicalMast_Alpha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindMeasurementInfrastructure"/>
+        <NamedIndividual IRI="#MetereologicalMast_Alpha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceProblem"/>
+        <NamedIndividual IRI="#PowerLoss_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PowerLoss"/>
+        <NamedIndividual IRI="#PowerLoss_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindProblem"/>
+        <NamedIndividual IRI="#PowerLoss_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PressureSensor"/>
+        <NamedIndividual IRI="#PressureSensor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensor"/>
+        <NamedIndividual IRI="#PressureSensor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AtmosphericPressure"/>
+        <NamedIndividual IRI="#Pressure_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AtmosphericVariable"/>
+        <NamedIndividual IRI="#Pressure_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurableVariable"/>
+        <NamedIndividual IRI="#Pressure_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensor"/>
+        <NamedIndividual IRI="#TemperatureSensor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TemperatureSensor"/>
+        <NamedIndividual IRI="#TemperatureSensor_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AtmosphericVariable"/>
+        <NamedIndividual IRI="#Temperature_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurableVariable"/>
+        <NamedIndividual IRI="#Temperature_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temperature"/>
+        <NamedIndividual IRI="#Temperature_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurableVariable"/>
+        <NamedIndividual IRI="#TurbulenceIntensity_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TurbulenceIntensity"/>
+        <NamedIndividual IRI="#TurbulenceIntensity_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindVariable"/>
+        <NamedIndividual IRI="#TurbulenceIntensity_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurableVariable"/>
+        <NamedIndividual IRI="#Unavailable_Status"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TurbineStatus"/>
+        <NamedIndividual IRI="#Unavailable_Status"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unavailable"/>
+        <NamedIndividual IRI="#Unavailable_Status"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#WTG_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#WTG_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#WTG_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbine"/>
+        <NamedIndividual IRI="#WTG_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurableVariable"/>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindDirection"/>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindVariable"/>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindFarm"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindGust"/>
+        <NamedIndividual IRI="#WindGust_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindPhenomenon"/>
+        <NamedIndividual IRI="#WindGust_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindVariabilityPhenomenon"/>
+        <NamedIndividual IRI="#WindGust_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindPhenomenon"/>
+        <NamedIndividual IRI="#WindShear_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindProfilePhenomenon"/>
+        <NamedIndividual IRI="#WindShear_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindShear"/>
+        <NamedIndividual IRI="#WindShear_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurableVariable"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindSpeed"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindVariable"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindPhenomenon"/>
+        <NamedIndividual IRI="#WindTurbulence_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindTurbulence"/>
+        <NamedIndividual IRI="#WindTurbulence_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensor"/>
+        <NamedIndividual IRI="#WindVane_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindVane"/>
+        <NamedIndividual IRI="#WindVane_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindPhenomenon"/>
+        <NamedIndividual IRI="#WindVeer_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindProfilePhenomenon"/>
+        <NamedIndividual IRI="#WindVeer_Event_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindVeer"/>
+        <NamedIndividual IRI="#WindVeer_Event_01"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Available_Status"/>
+        <NamedIndividual IRI="#Unavailable_Status"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Measures"/>
+        <NamedIndividual IRI="#Anemometer_01"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Measures"/>
+        <NamedIndividual IRI="#Anemometer_02"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+        <NamedIndividual IRI="#WTG_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayBeAffectedBy"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+        <NamedIndividual IRI="#WindTurbulence_Event_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+        <NamedIndividual IRI="#WTG_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+        <NamedIndividual IRI="#WTG_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+        <NamedIndividual IRI="#WTG_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+        <NamedIndividual IRI="#WTG_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+        <NamedIndividual IRI="#WTG_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayBeCausedBy"/>
+        <NamedIndividual IRI="#ControlProblem_01"/>
+        <NamedIndividual IRI="#WindVeer_Event_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayBeCausedBy"/>
+        <NamedIndividual IRI="#FatigueLoad_01"/>
+        <NamedIndividual IRI="#WindTurbulence_Event_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Measures"/>
+        <NamedIndividual IRI="#HumiditySensor_01"/>
+        <NamedIndividual IRI="#Humidity_Mast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <NamedIndividual IRI="#Humidity_Mast"/>
+        <NamedIndividual IRI="#HumiditySensor_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#MetereologicalMast_Alpha"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayBeCausedBy"/>
+        <NamedIndividual IRI="#PowerLoss_01"/>
+        <NamedIndividual IRI="#WindGust_Event_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Measures"/>
+        <NamedIndividual IRI="#PressureSensor_01"/>
+        <NamedIndividual IRI="#Pressure_Mast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <NamedIndividual IRI="#Pressure_Mast"/>
+        <NamedIndividual IRI="#PressureSensor_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+        <NamedIndividual IRI="#WTG_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+        <NamedIndividual IRI="#WTG_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Measures"/>
+        <NamedIndividual IRI="#TemperatureSensor_01"/>
+        <NamedIndividual IRI="#Temperature_Mast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <NamedIndividual IRI="#Temperature_Mast"/>
+        <NamedIndividual IRI="#TemperatureSensor_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStatus"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <NamedIndividual IRI="#Available_Status"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayBeAffectedBy"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <NamedIndividual IRI="#WindGust_Event_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Characterizes"/>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+        <NamedIndividual IRI="#WindVeer_Event_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+        <NamedIndividual IRI="#WindVane_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#Blade_01B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#Blade_01C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#Blade_02A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#Blade_02B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#Blade_02C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#MetereologicalMast_Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#Rotor_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#Rotor_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#WTG_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#WindFarm_Alpha"/>
+        <NamedIndividual IRI="#WTG_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayAffect"/>
+        <NamedIndividual IRI="#WindGust_Event_01"/>
+        <NamedIndividual IRI="#WTG_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayCause"/>
+        <NamedIndividual IRI="#WindGust_Event_01"/>
+        <NamedIndividual IRI="#PowerLoss_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+        <NamedIndividual IRI="#WindShear_Event_01"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Characterizes"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+        <NamedIndividual IRI="#WindShear_Event_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+        <NamedIndividual IRI="#Anemometer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+        <NamedIndividual IRI="#Anemometer_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayAffect"/>
+        <NamedIndividual IRI="#WindTurbulence_Event_01"/>
+        <NamedIndividual IRI="#Blade_01A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayCause"/>
+        <NamedIndividual IRI="#WindTurbulence_Event_01"/>
+        <NamedIndividual IRI="#FatigueLoad_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Measures"/>
+        <NamedIndividual IRI="#WindVane_01"/>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+        <NamedIndividual IRI="#WindVeer_Event_01"/>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mayCause"/>
+        <NamedIndividual IRI="#WindVeer_Event_01"/>
+        <NamedIndividual IRI="#ControlProblem_01"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInstallationHeight"/>
+        <NamedIndividual IRI="#Anemometer_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">89.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInstallationHeight"/>
+        <NamedIndividual IRI="#Anemometer_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">28.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInstallationHeight"/>
+        <NamedIndividual IRI="#HumiditySensor_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#Humidity_Mast"/>
+        <Literal>percent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInstallationHeight"/>
+        <NamedIndividual IRI="#PressureSensor_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#Pressure_Mast"/>
+        <Literal>Pa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInstallationHeight"/>
+        <NamedIndividual IRI="#TemperatureSensor_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#Temperature_Mast"/>
+        <Literal>degree Celsius</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#TurbulenceIntensity_Mast"/>
+        <Literal>percent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNominalPower"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfBlades"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPowerOutput"/>
+        <NamedIndividual IRI="#WTG_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNominalPower"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfBlades"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPowerOutput"/>
+        <NamedIndividual IRI="#WTG_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#WindDirection_Mast"/>
+        <Literal>degree</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#WindSpeed_Mast"/>
+        <Literal>m/s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInstallationHeight"/>
+        <NamedIndividual IRI="#WindVane_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">87.0</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Characterizes"/>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Measures"/>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasComponent"/>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#mayAffect"/>
+        <ObjectProperty IRI="#mayBeAffectedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#mayBeCausedBy"/>
+        <ObjectProperty IRI="#mayCause"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasComponent"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Characterizes"/>
+        <Class IRI="#MeasurableVariable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Measures"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#WindComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStatus"/>
+        <Class IRI="#WindComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStatus"/>
+        <Class IRI="#WindTurbine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+        <Class IRI="#WindPhenomenon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <Class IRI="#WindComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <Class IRI="#MeasurableVariable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mayAffect"/>
+        <Class IRI="#WindPhenomenon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mayBeAffectedBy"/>
+        <Class IRI="#WindComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mayBeCausedBy"/>
+        <Class IRI="#WindProblem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mayCause"/>
+        <Class IRI="#WindPhenomenon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Characterizes"/>
+        <Class IRI="#WindPhenomenon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Measures"/>
+        <Class IRI="#MeasurableVariable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#WindComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStatus"/>
+        <Class IRI="#MeasurableVariable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStatus"/>
+        <Class IRI="#TurbineStatus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+        <Class IRI="#MeasurableVariable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <Class IRI="#WindComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayAffect"/>
+        <Class IRI="#WindComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayBeAffectedBy"/>
+        <Class IRI="#WindPhenomenon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayBeCausedBy"/>
+        <Class IRI="#WindPhenomenon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayCause"/>
+        <Class IRI="#WindProblem"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPowerOutput"/>
+        <Class IRI="#WindComponent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPowerOutput"/>
+        <Class IRI="#WindTurbine"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasInstallationHeight"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNominalPower"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumberOfBlades"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPowerOutput"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Quais turbinas estão disponíveis</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>SQuery1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#WindTurbine"/>
+                <Variable IRI="/t"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasStatus"/>
+                <Variable IRI="/t"/>
+                <Variable IRI="/status"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Available"/>
+                <Variable IRI="/status"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="/t"/>
+                <Variable IRI="/status"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Turbinas Indisponíveis</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>SQuery2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#WindTurbine"/>
+                <Variable IRI="/t"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasStatus"/>
+                <Variable IRI="/t"/>
+                <Variable IRI="/status"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Unavailable"/>
+                <Variable IRI="/status"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="/t"/>
+                <Variable IRI="/status"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>caracteriza wind veer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#WindVeer"/>
+                <Variable IRI="/p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#WindDirection"/>
+                <Variable IRI="/v"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacterizedBy"/>
+                <Variable IRI="/p"/>
+                <Variable IRI="/v"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Variaveis que ccaracterizam fenomenos eolicos</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>SQuery3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#WindPhenomenon"/>
+                <Variable IRI="/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacterizedBy"/>
+                <Variable IRI="/p"/>
+                <Variable IRI="/v"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="/p"/>
+                <Variable IRI="/v"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>fenomenos que afetam componentes e causam problemas</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>SQuery5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#WindPhenomenon"/>
+                <Variable IRI="/phenomenon"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#mayAffect"/>
+                <Variable IRI="/phenomenon"/>
+                <Variable IRI="/component"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#mayCause"/>
+                <Variable IRI="/phenomenon"/>
+                <Variable IRI="/problem"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="/phenomenon"/>
+                <Variable IRI="/component"/>
+                <Variable IRI="/problem"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>caracterizacao do wind shear</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#WindShear"/>
+                <Variable IRI="/p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#WindSpeed"/>
+                <Variable IRI="/v"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacterizedBy"/>
+                <Variable IRI="/p"/>
+                <Variable IRI="/v"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>identifica disponibilidade de turbinas</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#WindTurbine"/>
+                <Variable IRI="/t"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasPowerOutput"/>
+                <Variable IRI="/t"/>
+                <Variable IRI="/p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasStatus"/>
+                <Variable IRI="/t"/>
+                <NamedIndividual IRI="#Available_Status"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>identifica indisponibilidade das turbinas</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#WindTurbine"/>
+                <Variable IRI="/t"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasPowerOutput"/>
+                <Variable IRI="/t"/>
+                <Variable IRI="/p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasStatus"/>
+                <Variable IRI="/t"/>
+                <NamedIndividual IRI="#Unavailable_Status"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
